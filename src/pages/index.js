@@ -21,6 +21,7 @@ import {
 
 export default () =>
     <Layout>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
         <div class="ui stackable grid" style={{height:"100vh", fontFamily:"Poppins", lineHeight:"24px"}}>
             <div class="stackable centered column" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"100%", margin:"0"}}>
                 <Card  style={{flexDirection:"height", width:"75%", textAlign:"center", boxShadow:"0 0px 20px 0 #d4d4d5, 0 0 0 0px #d4d4d5",borderRadius:"0rem"}}>
