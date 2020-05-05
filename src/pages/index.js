@@ -20,22 +20,22 @@ import {
 
 
 export default () =>
-    <Layout>
+    <Layout style={{overflow:"scroll"}}>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-        <div class="ui stackable grid" style={{height:"100vh", fontFamily:"Poppins", lineHeight:"24px"}}>
-            <div class="stackable centered column" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"100%", margin:"0"}}>
-                <Card  style={{flexDirection:"height", width:"75%", textAlign:"center", boxShadow:"0 0px 20px 0 #d4d4d5, 0 0 0 0px #d4d4d5",borderRadius:"0rem"}}>
+        <div class="ui stackable grid" style={{height:"-webkit-fill-available", minHeight: "100%", fontFamily:"Poppins", lineHeight:"24px"}}>
+            <div class="stackable centered column" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"100vh", margin:"0"}}>
+                <Card  style={{flexDirection:"height", width:"75%", textAlign:"center", boxShadow:"0 0px 20px 0 #d4d4d5, 0 0 0 0px #d4d4d5",borderRadius:"0rem",overflow:"visible"}}>
                         <div class="ui stackable grid" style={{height:"100%",margin:"0",display:"inline"}}>
                             <div class="row" style={{maxWidth:"100",maxHeight:"25%",alignItems:"center",padding:"8px",justifyContent:'center'}}>
                                 <div class="column" style={{padding:'8px',float:"left",width:"125px"}}>
                                     <img src={Img} style={{maxHeight:"100px"}}></img> 
                                 </div>
-                                <div class="column" style={{padding:'8px', whiteSpace:"nowrap",float:"left",flexDirection:"height", width:"50%", height:"100px"}}>
-                                    <p style={{ textAlign:"center", fontSize:"64px"}}><strong>hi, i'm Zayyan.</strong></p>
+                                <div class="column" style={{padding:"4px", flexDirection:"height", height:"100px", maxWidth:"100%", width:"30%", marginTop:"2%", textAlign:"center"}}>
+                                    <p style={{ textAlign:"center", fontSize:"3rem"}}><strong>hi, i'm Zayyan.</strong></p>
                                 </div>
                             </div>
                             <GridRow class = "two column row" style={{clear:"both",padding:'8px'}}>
-                                <GridColumn style={{float:"left",width:"50%"}}>
+                                <GridColumn style={{float:"left",width:"50%", marginTop:"2"}}>
                                     <div style={{padding:"8px", fontSize:"1.5rem",textAlign:'left', marginTop:"1%",}}> 
                                         <strong>education</strong>
                                     </div>
@@ -70,12 +70,12 @@ export default () =>
                                     </GridRow> */}
                                 </GridColumn>
                             </GridRow>
-                            <GridRow style={{margin:"2%", padding:"0rem", justifyContent:"center", alignItems:"center", clear:"both", height:"10%", display:"block"}}>
-                                    <a style={{color:"black", margin:"16px", fontSize:"1.75em"}} target="_blank" href="https://twitter.com/brownmanwonders"><FontAwesomeIcon icon={faTwitter}/></a>
-                                    <a style={{color:"black", margin:"16px", fontSize:"1.75em"}} target="_blank" href="https://linkedin.com/in/zayyanfaizal/"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                                    <a style={{color:"black", margin:"16px", fontSize:"1.75em"}}target="_blank" href="https://github.com/zfaizal2"><FontAwesomeIcon icon={faGithub}/></a> 
-                                    <a style={{color:"black", margin:"16px", fontSize:"1.75em"}} target="_blank" href="https://medium.com/@zayyanfaizal"><FontAwesomeIcon icon={faMediumM}/></a>
-                                    <a style={{color:"black", margin:"16px", fontSize:"1.75em"}} target="_blank" href="mailto:zfaizal2@illinois.edu"><FontAwesomeIcon icon={faEnvelope}/></a> 
+                            <GridRow style={{margin:"2%", marginRight:"2%", padding:"0rem", justifyContent:"center", alignItems:"center", clear:"both", height:"10%", display:"block"}}>
+                                    <a style={{color:"black", margin:"12px", fontSize:"1.75em"}} target="_blank" href="https://twitter.com/brownmanwonders"><FontAwesomeIcon icon={faTwitter}/></a>
+                                    <a style={{color:"black", margin:"12px", fontSize:"1.75em"}} target="_blank" href="https://linkedin.com/in/zayyanfaizal/"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                                    <a style={{color:"black", margin:"12px", fontSize:"1.75em"}}target="_blank" href="https://github.com/zfaizal2"><FontAwesomeIcon icon={faGithub}/></a> 
+                                    <a style={{color:"black", margin:"12px", fontSize:"1.75em"}} target="_blank" href="https://medium.com/@zayyanfaizal"><FontAwesomeIcon icon={faMediumM}/></a>
+                                    <a style={{color:"black", margin:"12px", fontSize:"1.75em"}} target="_blank" href="mailto:zfaizal2@illinois.edu"><FontAwesomeIcon icon={faEnvelope}/></a> 
                             </GridRow>
                         </div>
                 </Card>
