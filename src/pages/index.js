@@ -4,16 +4,12 @@ import Img from "./zayyan.png"
 import Layout from "./layout"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter,faLinkedinIn,faGithub,faMediumM,faen } from "@fortawesome/free-brands-svg-icons";
+import { Helmet } from "react-helmet"
+
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import {
     Card,
-    Grid,
-    Input,
-    Button,
     GridColumn,
-    Modal,
-    Header,
-    Icon,
     GridRow
 } from "semantic-ui-react";
 
@@ -22,7 +18,11 @@ import {
 export default () =>
     <Layout style={{overflow:"scroll"}}>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-        <head>Zayyan Faizal</head>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Zayyan Faizal</title>
+          <link rel="canonical" href="http://zayyanfaizal.com/" />
+        </Helmet>
         <div class="ui stackable grid" style={{height:"-webkit-fill-available", minHeight: "100%", fontFamily:"Poppins", lineHeight:"24px", }}>
             <div class="stackable centered column" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"100vh", marginTop:"auto", marginBottom:"auto"}}>
                 <Card  style={{flexDirection:"height", width:"75%", textAlign:"center", boxShadow:"0 0px 20px 0 #d4d4d5, 0 0 0 0px #d4d4d5",borderRadius:"0rem",overflow:"visible"}}>
