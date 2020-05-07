@@ -22,11 +22,12 @@ import {
 export default () =>
     <Layout style={{overflow:"scroll"}}>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-        <div class="ui stackable grid" style={{height:"-webkit-fill-available", minHeight: "100%", fontFamily:"Poppins", lineHeight:"24px"}}>
-            <div class="stackable centered column" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"100vh", margin:"0"}}>
+        <head>Zayyan Faizal</head>
+        <div class="ui stackable grid" style={{height:"-webkit-fill-available", minHeight: "100%", fontFamily:"Poppins", lineHeight:"24px", }}>
+            <div class="stackable centered column" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"100vh", marginTop:"auto", marginBottom:"auto"}}>
                 <Card  style={{flexDirection:"height", width:"75%", textAlign:"center", boxShadow:"0 0px 20px 0 #d4d4d5, 0 0 0 0px #d4d4d5",borderRadius:"0rem",overflow:"visible"}}>
                         <div class="ui stackable grid" style={{height:"100%",margin:"0",display:"inline"}}>
-                            <div class="row" style={{maxWidth:"100",maxHeight:"25%",alignItems:"center",padding:"8px",justifyContent:'center'}}>
+                            <div class="row" style={{maxWidth:"100",maxHeight:"25%",alignItems:"center",padding:"8px",justifyContent:'center',marginLeft:"auto", marginRight:"auto"}}>
                                 <div class="column" style={{padding:'8px',float:"left",width:"125px"}}>
                                     <img src={Img} style={{maxHeight:"100px"}}></img> 
                                 </div>
