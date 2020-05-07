@@ -18,7 +18,6 @@ import {
 export default () =>
     <Layout style={{overflow:"scroll"}}>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YBS924NNVD"></script>
         <Helmet>
           <meta charSet="utf-8" />
           <title>Zayyan Faizal</title>
