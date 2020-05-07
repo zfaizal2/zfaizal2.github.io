@@ -18,10 +18,11 @@ import {
 export default () =>
     <Layout style={{overflow:"scroll"}}>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YBS924NNVD"></script>
         <Helmet>
           <meta charSet="utf-8" />
           <title>Zayyan Faizal</title>
-          <link rel="canonical" href="http://zayyanfaizal.com/" />
+          <link rel="canonical" href="https://zayyanfaizal.com/" />
         </Helmet>
         <div class="ui stackable grid" style={{height:"-webkit-fill-available", minHeight: "100%", fontFamily:"Poppins", lineHeight:"24px", }}>
             <div class="stackable centered column" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"100vh", marginTop:"auto", marginBottom:"auto"}}>
