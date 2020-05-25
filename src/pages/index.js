@@ -16,13 +16,16 @@ import {
 
 
 export default () =>
+    
     <Layout style={{overflow:"scroll"}}>
+        <script data-goatcounter="https://zayyan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
         <Helmet>
           <meta charSet="utf-8" />
           <title>Zayyan Faizal</title>
           <link rel="canonical" href="https://zayyanfaizal.com/" />
         </Helmet>
+        <div class="container-fluid">
         <div class="ui stackable grid" style={{height:"-webkit-fill-available", minHeight: "100%", fontFamily:"Poppins", lineHeight:"24px", }}>
             <div class="stackable centered column" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height:"100vh", marginTop:"auto", marginBottom:"auto"}}>
                 <Card  style={{flexDirection:"height", width:"75%", textAlign:"center", boxShadow:"0 0px 20px 0 #d4d4d5, 0 0 0 0px #d4d4d5",borderRadius:"0rem",overflow:"visible"}}>
@@ -58,17 +61,17 @@ export default () =>
                                         <strong>currently</strong> 
                                     </div>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <div >product designer @ hack4impact</div>
+                                            <a href="https://uiuc.hack4impact.org/">product designer @ hack4impact</a>
                                     </GridRow>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <div >volunteer @ alpha phi omega</div>
+                                            <a href="https://apo-aa.org/">volunteer @ alpha phi omega</a>
                                     </GridRow>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <div >software dev intern @ motorola solutions</div>
+                                            <a >software dev intern @ motorola solutions</a>
                                     </GridRow>
-                                    {/* <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <div >side projects ---></div>
-                                    </GridRow> */}
+                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
+                                            <a href="https://www.notion.so/ryoske/my-work-146c19ab2aa8475980f8db68ea750f64">side projects ---></a>
+                                    </GridRow> 
                                 </GridColumn>
                             </GridRow>
                             <GridRow style={{margin:"2%", marginRight:"2%", padding:"0rem", justifyContent:"center", alignItems:"center", clear:"both", height:"10%", display:"block"}}>
@@ -82,5 +85,5 @@ export default () =>
                 </Card>
             </div>
         </div>
+        </div>
     </Layout>
- 
