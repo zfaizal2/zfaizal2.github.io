@@ -61,7 +61,7 @@ export default () =>
                                         <strong>currently</strong> 
                                     </div>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <a >software dev intern @ motorola solutions (summer & fall 2020)</a>
+                                            <a >SWE intern @ motorola solutions (summer & fall 2020)</a>
                                     </GridRow>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
                                             <a href="https://uiuc.hack4impact.org/">product designer @ hack4impact</a>
