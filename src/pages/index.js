@@ -47,7 +47,7 @@ export default () =>
                                             <div >systems engineering & design</div>
                                     </GridRow>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <div >minor in computer science</div>
+                                            <div >minors in computer science & economics</div>
                                     </GridRow>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
                                             <div >university of illinois at urbana champaign</div>
@@ -61,13 +61,13 @@ export default () =>
                                         <strong>currently</strong> 
                                     </div>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
+                                            <a >software dev intern @ motorola solutions (summer & fall 2020)</a>
+                                    </GridRow>
+                                    <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
                                             <a href="https://uiuc.hack4impact.org/">product designer @ hack4impact</a>
                                     </GridRow>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
                                             <a href="https://apo-aa.org/">volunteer @ alpha phi omega</a>
-                                    </GridRow>
-                                    <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <a >software dev intern @ motorola solutions</a>
                                     </GridRow>
                                      <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
                                             <a href="https://www.notion.so/ryoske/my-work-146c19ab2aa8475980f8db68ea750f64">side projects ---></a>
