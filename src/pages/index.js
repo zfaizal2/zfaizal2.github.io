@@ -1,6 +1,6 @@
 import React from "react"
 import "semantic-ui-css/semantic.min.css";
-import Img from "./zayyan.png"
+import Img from "./zayyan_faizal.jpg"
 import Layout from "./layout"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter,faLinkedinIn,faGithub,faMediumM,faen } from "@fortawesome/free-brands-svg-icons";
@@ -32,7 +32,7 @@ export default () =>
                         <div class="ui stackable grid" style={{height:"100%",margin:"0",display:"inline"}}>
                             <div class="row" style={{maxWidth:"100",maxHeight:"25%",alignItems:"center",padding:"8px",justifyContent:'center',marginLeft:"auto", marginRight:"auto"}}>
                                 <div class="column" style={{padding:'8px',float:"left",width:"125px"}}>
-                                    <img src={Img} style={{maxHeight:"100px"}}></img> 
+                                    <img src={Img} style={{maxHeight:"100px",borderRadius:"50%"}}></img> 
                                 </div>
                                 <div class="column" style={{padding:"4px", flexDirection:"height", height:"100px", maxWidth:"100%", width:"30%", marginTop:"2%", textAlign:"center"}}>
                                     <p style={{ textAlign:"center", fontSize:"3rem"}}><strong>hi, i'm Zayyan.</strong></p>
@@ -61,13 +61,13 @@ export default () =>
                                         <strong>currently</strong> 
                                     </div>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <a >swe intern @ motorola solutions (summer & fall 2020)</a>
+                                            <a >swe intern @ motorola solutions 2020-2021</a>
                                     </GridRow>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <a href="https://uiuc.hack4impact.org/">product designer @ hack4impact</a>
+                                            <a href="https://uiuc.hack4impact.org/">product research lead @ hack4impact</a>
                                     </GridRow>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
-                                            <a href="https://apo-aa.org/">volunteer @ alpha phi omega</a>
+                                            <a href="https://www.microsoft.com/">incoming pm intern @ microsoft</a>
                                     </GridRow>
                                      <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
                                             <a href="https://www.notion.so/ryoske/my-work-146c19ab2aa8475980f8db68ea750f64">side projects ---></a>
