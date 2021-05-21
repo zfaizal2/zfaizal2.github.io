@@ -39,9 +39,9 @@ export default () =>
                                     <p style={{ textAlign:"left", fontSize:"3rem"}}><>zayyan faizal.</></p>
                                 </div>
                             </div>
-                            <GridRow class = "two column row" style={{clear:"both",paddingLeft:'8px', alignItems:'center', width:'100%'}}>
+                            <GridRow class = "two column row" style={{clear:"both",paddingLeft:'8px', paddingTop:'20px',alignItems:'center', width:'100%'}}>
                                 <GridColumn style={{float:"right",width:"50%", marginTop:"20px", alignItems:"right"}}>
-                                    <div style={{padding:"8px", fontSize:"2rem",textAlign:'left', marginTop:"1%",fontStyle:'italic', textDecoration:'underline'}}> 
+                                    <div style={{padding:"8px", fontSize:"2rem",textAlign:'left', marginTop:"2%",fontStyle:'italic', textDecoration:'underline'}}> 
                                         <>education</>
                                     </div>
                                     <GridRow style={{padding:"8px", fontSize:"1.5rem",textAlign:'left'}}>
