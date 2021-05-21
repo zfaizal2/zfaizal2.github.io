@@ -40,7 +40,7 @@ export default () =>
                                 </div>
                             </div>
                             <GridRow class = "two column row" style={{clear:"both",paddingLeft:'8px', alignItems:'center', width:'100%'}}>
-                                <GridColumn style={{float:"right",width:"50%", marginTop:"2", alignItems:"right"}}>
+                                <GridColumn style={{float:"right",width:"50%", marginTop:"20px", alignItems:"right"}}>
                                     <div style={{padding:"8px", fontSize:"2rem",textAlign:'left', marginTop:"1%",fontStyle:'italic', textDecoration:'underline'}}> 
                                         <>education</>
                                     </div>
