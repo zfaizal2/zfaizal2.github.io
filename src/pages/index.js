@@ -89,4 +89,5 @@ export default () =>
                 {/* </Card> */}
             </div>
         </div>
-        </div>
+</div>
+</Layout>
