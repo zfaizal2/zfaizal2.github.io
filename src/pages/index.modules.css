@@ -1,0 +1,15 @@
+a.social-icon {
+    color:"white"; 
+    margin:"120px"; 
+    font-size:"1.75em";
+}
+
+div.list {
+    padding:3vw;
+    width:100%; 
+    text-align:center;
+    font-size:8vw;
+    font-style:italic; 
+    text-decoration:underline; 
+    padding:3vw;
+}

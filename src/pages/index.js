@@ -5,10 +5,10 @@ import Layout from "./layout"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter,faLinkedinIn,faGithub,faMediumM,faen } from "@fortawesome/free-brands-svg-icons";
 import { Helmet } from "react-helmet"
-
+import {socialIcon, list} from "./index.modules.css"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import {
-    Card,
+    Card, 
     GridColumn,
     GridRow
 } from "semantic-ui-react";
@@ -34,17 +34,17 @@ export default () =>
                                 <p style={{textAlign:"center", fontSize:"8vw",fontStyle:'italic', textDecoration:'underline', padding:"3vw"}}>Zayyan Faizal</p>
                         </div>
                         <GridRow style={{clear:"both",padding:'8px', alignItems:'center', textAlign:'center'}}>
-                            <div style={{width:'100%', textAlign:"center", fontSize:"8vw",fontStyle:'italic', textDecoration:'underline', padding:"3vw"}}>education</div>
+                            <div className={"list"}>education</div>
                             <div style={{width:'100%', textAlign:"center", fontSize:"8vw",fontStyle:'italic', textDecoration:'underline', padding:"3vw"}}>work</div>
                             <div style={{width:'100%', textAlign:"center", fontSize:"8vw",fontStyle:'italic', textDecoration:'underline', padding:"3vw"}}>projects</div>
                             <div style={{width:'100%', textAlign:"center", fontSize:"8vw",fontStyle:'italic', textDecoration:'underline', padding:"3vw"}}>interests</div>
                         </GridRow>
                         <GridRow style={{justifyContent:"center", alignItems:"center", height:"20%", display:"block"}}>
-                                <a style={{color:"black", margin:"12px", fontSize:"1.75em", paddingLeft:'50px'}} target="_blank" href="https://twitter.com/brownmanwonders"><FontAwesomeIcon icon={faTwitter}/></a>
-                                <a style={{color:"black", margin:"12px", fontSize:"1.75em"}} target="_blank" href="https://linkedin.com/in/zayyanfaizal/"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                                <a style={{color:"black", margin:"12px", fontSize:"1.75em"}}target="_blank" href="https://github.com/zfaizal2"><FontAwesomeIcon icon={faGithub}/></a> 
-                                <a style={{color:"black", margin:"12px", fontSize:"1.75em"}} target="_blank" href="https://medium.com/@zayyanfaizal"><FontAwesomeIcon icon={faMediumM}/></a>
-                                <a style={{color:"black", margin:"12px", fontSize:"1.75em"}} target="_blank" href="mailto:zfaizal2@illinois.edu"><FontAwesomeIcon icon={faEnvelope}/></a> 
+                                <div className={socialIcon} href="https://twitter.com/brownmanwonders"><FontAwesomeIcon icon={faTwitter}/></div>
+                                <a class="social-icon" target="_blank" href="https://linkedin.com/in/zayyanfaizal/"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                                <a class="social-icon" target="_blank" href="https://github.com/zfaizal2"><FontAwesomeIcon icon={faGithub}/></a> 
+                                <a class="social-icon" target="_blank" href="https://medium.com/@zayyanfaizal"><FontAwesomeIcon icon={faMediumM}/></a>
+                                <a class="social-icon" target="_blank" href="mailto:zfaizal2@illinois.edu"><FontAwesomeIcon icon={faEnvelope}/></a> 
                         </GridRow>
                     </div>
                 </div>
