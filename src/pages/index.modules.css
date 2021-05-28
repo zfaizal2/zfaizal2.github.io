@@ -4,6 +4,10 @@ a.social-icon {
     font-size:1.75em;
 }
 
+a.social-icon:hover {
+    padding: 10px;
+}
+
 div.list {
     padding:3vw;
     width:100%; 
@@ -12,6 +16,25 @@ div.list {
     font-style:italic; 
     text-decoration:underline; 
     padding:3vw;
+}
+
+.subheader {
+    font-style: italic;
+    text-decoration:underline;
+}
+
+.hide {
+    display: none;
+    padding:3vw;
+    width:100%; 
+    line-height: 50px;
+    text-align:center;
+    font-size:6vw;
+    padding:3vw;
+}
+
+div.list:hover + .hide {
+    display: block;
 }
 
 p.name {
