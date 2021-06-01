@@ -25,12 +25,16 @@ div.list {
 
 .hide {
     display: none;
-    padding:3vw;
+    padding:5vw;
     width:100%; 
-    line-height: 50px;
+    line-height: 5vh;
     text-align:center;
     font-size:6vw;
     padding:3vw;
+}
+
+div.list:active + .hide {
+    display: block;
 }
 
 div.list:hover + .hide {
@@ -48,4 +52,9 @@ p.name {
 .headshot {
     max-width: 30% !important;
     border-radius: 50%;
+}
+
+.projectName {
+    text-decoration: underline;
+    text-overflow: unset;
 }

@@ -1,15 +1,13 @@
-import React, {useHover} from "react"
+import React from "react"
 import "semantic-ui-css/semantic.min.css";
 import Img from "./zayyan_faizal.jpg"
 import Layout from "./layout"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter,faLinkedinIn,faGithub,faMediumM,faen } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter,faLinkedinIn,faGithub,faMediumM} from "@fortawesome/free-brands-svg-icons";
 import { Helmet } from "react-helmet"
 import "./index.modules.css"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import {
-    Card, 
-    GridColumn,
     GridRow
 } from "semantic-ui-react";
 
@@ -19,7 +17,6 @@ export default () =>
 
     <Layout style={{overflow:"scroll"}}>
         <script data-goatcounter="https://zayyan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
         <Helmet>
           <meta charSet="utf-8" />
           <title>Zayyan Faizal</title>
@@ -45,6 +42,13 @@ export default () =>
                                 swe intern @ motorola solutions
                             </div>
                             <div className="list">projects</div>
+                            <div className="hide"> 
+                                
+                                GLENWorld KSEP, a kindergarten readiness assessment
+                                <div className="projectName">abacus grades</div>, a grade management software <br/> 
+                                perform fitness, a fitness form corrector <br/>
+                                
+                            </div>
                             <div className="list">interests</div>
                         </GridRow>
                         <GridRow style={{textAlign:"center", display:"block"}}>
