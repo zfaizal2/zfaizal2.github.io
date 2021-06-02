@@ -16,6 +16,7 @@ import {
 export default () => 
 
     <Layout style={{overflow:"scroll"}}>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <script data-goatcounter="https://zayyan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <Helmet>
           <meta charSet="utf-8" />
@@ -30,7 +31,7 @@ export default () =>
                                 <img className="headshot" src={Img} ></img> 
                                 <p className="name">Zayyan Faizal</p>
                         </GridRow>
-                        <GridRow style={{clear:"both",padding:'8px', alignItems:'center', textAlign:'center'}}>
+                        <GridRow style={{clear:"both",padding:'8px', alignItems:'center', textAlign:'center', justifyContent:'center'}}>
                             <div className="list">education</div>
                             <div className="hide">university of illinois at urbana champaign <br/> class of 2022</div>
                             <div className="list">work</div>
@@ -50,6 +51,10 @@ export default () =>
                                 
                             </div>
                             <div className="list">interests</div>
+                            <div className="hide"> 
+                                i'm currently exploring areas of crypto, education, 
+                                personal development systems, and building great software
+                            </div>
                         </GridRow>
                         <GridRow style={{textAlign:"center", display:"block"}}>
                                 <a className="social-icon" rel="noreferrer" target="_blank" href="https://twitter.com/brownmanwonders"><FontAwesomeIcon icon={faTwitter}/></a>
