@@ -20,7 +20,7 @@ div.list {
 
 .subheader {
     font-style: italic;
-    text-decoration:underline;
+    /* text-decoration:underline; */
     font-size:4vh;
 }
 

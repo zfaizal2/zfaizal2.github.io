@@ -38,6 +38,7 @@ export default () =>
                             <div className="hide"> 
                                 <div class="subheader">currently</div>
                                 <div class="item">co-founder @ illini blockchain </div> 
+                                <div class="item">software dev @ hack4impact uiuc </div> 
                                 <div class="subheader">previously</div>
                                 <div class="item">pm intern @ microsoft</div>
                                 <div class="item">swe intern @ motorola solutions</div>
