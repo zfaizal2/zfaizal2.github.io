@@ -29,7 +29,7 @@ export default () =>
                     <div class="ui stackable grid" style={{height:"100%",display:"inline"}}>
                         <GridRow style={{alignItems:"center",padding:"8px",justifyContent:'center',marginLeft:"auto", marginRight:"auto"}}>
                                 <img className="headshot" src={Img} ></img> 
-                                <p className="name">Zayyan Faizal</p>
+                                <p className="name">zayyan faizal</p>
                         </GridRow>
                         <GridRow style={{clear:"both",padding:'8px', alignItems:'center', textAlign:'center', justifyContent:'center'}}>
                             <div className="list">education</div>
@@ -37,16 +37,16 @@ export default () =>
                             <div className="list">work</div>
                             <div className="hide"> 
                                 <div class="subheader">currently</div>
-                                pm intern @ microsoft <br/> 
-                                software dev @ hack4impact <br/>
+                                <div class="item">co-founder @ illini blockchain </div> 
                                 <div class="subheader">previously</div>
-                                swe intern @ motorola solutions
+                                <div class="item">pm intern @ microsoft</div>
+                                <div class="item">swe intern @ motorola solutions</div>
                             </div>
                             <div className="list">projects</div>
                             <div className="hide"> 
                                 
-                                GLENWorld KSEP, a kindergarten readiness assessment
-                                <div className="projectName">abacus grades</div>, a grade management software <br/> 
+                                GLENWorld KSEP, a kindergarten readiness assessment <br/> 
+                                abacus grades, a grade management software <br/> 
                                 perform fitness, a fitness form corrector <br/>
                                 
                             </div>
@@ -56,7 +56,7 @@ export default () =>
                                 personal development systems, and building great software
                             </div>
                         </GridRow>
-                        <GridRow style={{textAlign:"center", display:"block"}}>
+                        <GridRow style={{textAlign:"center", display:"block", marginTop:'2rem'}}>
                                 <a className="social-icon" rel="noreferrer" target="_blank" href="https://twitter.com/brownmanwonders"><FontAwesomeIcon icon={faTwitter}/></a>
                                 <a className="social-icon" rel="noreferrer" target="_blank" href="https://linkedin.com/in/zayyanfaizal/"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                                 <a className="social-icon" rel="noreferrer" target="_blank" href="https://github.com/zfaizal2"><FontAwesomeIcon icon={faGithub}/></a> 

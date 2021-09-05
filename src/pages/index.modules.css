@@ -12,7 +12,7 @@ div.list {
     padding:3vw;
     width:60%; 
     text-align:center;
-    font-size:8vh;
+    font-size:5vh;
     font-style:italic; 
     text-decoration:underline; 
     padding:3vw;
@@ -21,7 +21,11 @@ div.list {
 .subheader {
     font-style: italic;
     text-decoration:underline;
-    font-size:8vh;
+    font-size:4vh;
+}
+
+.item {
+    font-size: 3vh;
 }
 
 .hide {
@@ -30,7 +34,7 @@ div.list {
     width:100%; 
     line-height: 5vh;
     text-align:center;
-    font-size:6vh;
+    font-size:3vh;
     padding:3vw;
     
 }
@@ -45,8 +49,9 @@ div.list:hover + .hide {
 
 p.name {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-style: italic;
+    /* font-weight: bolder; */
     text-decoration: underline;
     padding: 3vw;
     
@@ -60,4 +65,5 @@ p.name {
 .projectName {
     text-decoration: underline;
     text-overflow: unset;
+    font-size: 2vh;
 }
