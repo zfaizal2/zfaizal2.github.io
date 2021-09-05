@@ -33,7 +33,7 @@ export default () =>
                         </GridRow>
                         <GridRow style={{clear:"both",padding:'8px', alignItems:'center', textAlign:'center', justifyContent:'center'}}>
                             <div className="list">education</div>
-                            <div className="hide">university of illinois at urbana champaign <br/> class of 2022</div>
+                            <div className="hide">university of illinois at urbana champaign <br/> systems engineering & design <br/> minors in cs & economics <br/> class of 2022</div>
                             <div className="list">work</div>
                             <div className="hide"> 
                                 <div class="subheader">currently</div>

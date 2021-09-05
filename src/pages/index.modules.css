@@ -16,6 +16,7 @@ div.list {
     font-style:italic; 
     text-decoration:underline; 
     padding:3vw;
+    
 }
 
 .subheader {
@@ -40,7 +41,7 @@ div.list {
 }
 
 div.list:active + .hide {
-    display: block;
+    
 }
 
 div.list:hover + .hide {
@@ -58,7 +59,7 @@ p.name {
 }
 
 .headshot {
-    max-width: 150px !important;
+    max-width: 100px !important;
     border-radius: 50%;
 }
 
