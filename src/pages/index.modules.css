@@ -37,16 +37,16 @@ div.list {
     text-align:center;
     font-size:3vh;
     padding:3vw;
-    
+    display: block;
 }
 
-div.list:active + .hide {
-    
+/* div.list:active + .hide {
+  
 }
 
 div.list:hover + .hide {
-    display: block;
-}
+    
+} */
 
 p.name {
     text-align: center;
