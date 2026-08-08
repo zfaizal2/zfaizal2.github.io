@@ -17,6 +17,9 @@
         }
 
         .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             margin-bottom: 3rem;
         }
 
@@ -27,6 +30,10 @@
 
         .header a:hover {
             color: #666;
+        }
+
+        .site-name {
+            font-weight: 600;
         }
 
         .blog-list {
@@ -68,11 +75,18 @@
 <body>
     <div class="header">
         <a href="../index.html">← Back to Home</a>
+        <a href="../index.html" class="site-name">Zayyan Faizal</a>
     </div>
 
     <h1>Blog Posts</h1>
     
     <ul class="blog-list">
+        <li class="blog-item">
+            <h2><a href="posts/second-city-citation.html">Built: Second City Citation — A Live Chicago Parking Ticket Tracker</a></h2>
+            <time datetime="2026-08-08">August 8th, 2026</time>
+            <p>Reverse engineering Chicago’s parking ticket system and building a live tracker.</p>
+            <a href="posts/second-city-citation.html" class="read-more">Read more →</a>
+        </li>
         <li class="blog-item">
             <h2><a href="posts/hope-and-ambition.html">hope &amp; ambition</a></h2>
             <time datetime="2025-11-01">November 1, 2025</time>
